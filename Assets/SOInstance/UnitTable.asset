@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ece681596e1ab43a5065dceb2fe32b, type: 3}
+  m_Name: UnitTable
+  m_EditorClassIdentifier: 
+  m_Units:
+  - m_ClassName: Knight
+    m_CharSprite: {fileID: -7689671385043696565, guid: d9eb3444bf57d55429c946059499505d,
+      type: 3}
+    m_HealthPoint: 100
+    m_MoveSpeed: 50
+    m_Armour: 5
+    m_AttackRange: 1
+    m_AttackDamage: 30
+    m_AttackBehav: {fileID: 11400000, guid: be13178d7d46b354e9ce7f965b0e915b, type: 2}
+    m_MoveBehav: {fileID: 11400000, guid: 33d7ce66149bc3141a6cc2c1c9993b55, type: 2}
+  - m_ClassName: Archer
+    m_CharSprite: {fileID: -1759791881078805778, guid: 9fb68345efe7287488b70205d80847b1,
+      type: 3}
+    m_HealthPoint: 70
+    m_MoveSpeed: 1
+    m_Armour: 1
+    m_AttackRange: 20
+    m_AttackDamage: 12
+    m_AttackBehav: {fileID: 11400000, guid: e60c9d2180afa86499053e2bdb5751be, type: 2}
+    m_MoveBehav: {fileID: 11400000, guid: 33d7ce66149bc3141a6cc2c1c9993b55, type: 2}
+  - m_ClassName: SpearMan
+    m_CharSprite: {fileID: -3711943079083384488, guid: 3507355bc39ed684e95a2be951319cdb,
+      type: 3}
+    m_HealthPoint: 80
+    m_MoveSpeed: 1
+    m_Armour: 1
+    m_AttackRange: 3
+    m_AttackDamage: 25
+    m_AttackBehav: {fileID: 11400000, guid: be13178d7d46b354e9ce7f965b0e915b, type: 2}
+    m_MoveBehav: {fileID: 11400000, guid: 9de0876cd34dd6341892978e0bc2f9d2, type: 2}
+  - m_ClassName: Peasant
+    m_CharSprite: {fileID: -3146839307310870136, guid: 28be422ed31e4774f8d83d89148992b0,
+      type: 3}
+    m_HealthPoint: 1
+    m_MoveSpeed: 1
+    m_Armour: 1
+    m_AttackRange: 1
+    m_AttackDamage: 1
+    m_AttackBehav: {fileID: 11400000, guid: 000efee4aac11a54fb62f3ff573485c7, type: 2}
+    m_MoveBehav: {fileID: 11400000, guid: 33d7ce66149bc3141a6cc2c1c9993b55, type: 2}
